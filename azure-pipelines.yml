@@ -12,11 +12,9 @@ pool:
 steps:
 - task: JavaToolInstaller@0
   inputs:
-    versionSpec: '17'
+    versionSpec: '11'
     jdkArchitectureOption: 'x64'
     jdkSourceOption: 'PreInstalled'
-    jdkFile: '/Users/austinallemand/Downloads/jdk-17.0.7_macos-x64_bin.dmg'
-    jdkDestinationDirectory: '/Users/austinallemand/azurelocalagent/java'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
