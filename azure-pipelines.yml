@@ -16,7 +16,7 @@ steps:
     jdkArchitectureOption: 'x64'
     jdkSourceOption: 'LocalDirectory'
     jdkFile: '/Users/austinallemand/Downloads/jdk-17.0.7_macos-x64_bin.dmg'
-    jdkDestinationDirectory: '/Users/austinallemand/azurelocalagent/'
+    jdkDestinationDirectory: '/Users/austinallemand/azurelocalagent/java'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
