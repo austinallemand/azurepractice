@@ -15,7 +15,7 @@ steps:
     versionSpec: '17'
     jdkArchitectureOption: 'x64'
     jdkSourceOption: 'LocalDirectory'
-    jdkFile: '/Users/austinallemand/Downloads/jdk-17.0.7_macos-x64_bin.tar.gz'
+    jdkFile: '/Users/austinallemand/Downloads/jdk-17.0.7_macos-x64_bin.dmg'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
