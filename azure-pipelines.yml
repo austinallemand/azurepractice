@@ -10,6 +10,12 @@ pool:
   name: azurepractice
 
 steps:
+- task: JavaToolInstaller@0
+  inputs:
+    versionSpec: '17'
+    jdkArchitectureOption: 'x64'
+    jdkSourceOption: 'LocalDirectory'
+    jdkFile: '/Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home'
 - task: Maven@3
   inputs:
     mavenPomFile: 'pom.xml'
