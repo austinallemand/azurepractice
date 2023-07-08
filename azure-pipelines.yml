@@ -14,7 +14,7 @@ steps:
   inputs:
     versionSpec: '17'
     jdkArchitectureOption: 'x64'
-    jdkSourceOption: 'LocalDirectory'
+    jdkSourceOption: 'PreInstalled'
     jdkFile: '/Users/austinallemand/Downloads/jdk-17.0.7_macos-x64_bin.dmg'
     jdkDestinationDirectory: '/Users/austinallemand/azurelocalagent/java'
 - task: Maven@3
